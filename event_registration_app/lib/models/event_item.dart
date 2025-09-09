@@ -45,13 +45,14 @@ class EventRegistrationItem {
     };
   }
   EventRegistrationItem copyWith({
+    int? id,
     String? date,
     String? time,
     String? eventName,
     String? eventDescription,
   }) {
     return EventRegistrationItem._withExistingId(
-      id: this.id,
+      id: id ?? this.id,
       date: date ?? this.date,
       time: time ?? this.time,
       eventName: eventName ?? this.eventName,

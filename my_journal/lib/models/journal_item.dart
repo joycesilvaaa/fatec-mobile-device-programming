@@ -42,14 +42,14 @@ class JournalItem {
   JournalItem copyWith({
     int? id,
     DateTime? createAt,
-    String? eventName,
-    String? eventDescription,
+    String? itemName,
+    String? itemDescription,
   }) {
     return JournalItem._withExistingId(
       id: id ?? this.id,
       createAt: createAt ?? this.createAt,
-      itemName: itemName ,
-      itemDescription: itemDescription,
+      itemName: itemName ?? this.itemName,
+      itemDescription: itemDescription ?? this.itemDescription,
     );
   }
 }

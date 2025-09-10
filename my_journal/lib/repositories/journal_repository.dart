@@ -50,8 +50,8 @@ class JournalRepository {
       final index = journals.indexWhere((e) => e.id == id);
       if (index != -1) {
         journals[index] = journals[index].copyWith(
-          eventName: newName,
-          eventDescription: newDescription,
+          itemName: newName,
+          itemDescription: newDescription,
         );
         final file = await _localFile;
         final jsonData = journals.map((e) => e.toJson()).toList();

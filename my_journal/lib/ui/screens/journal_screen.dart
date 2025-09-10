@@ -45,7 +45,6 @@ class _JournalScreenState extends State<JournalScreen> {
       setState(() {
         _isLoading = false;
       });
-      // Handle error, e.g., show a snackbar
     }
   }
 
@@ -109,8 +108,8 @@ class _JournalScreenState extends State<JournalScreen> {
                 if (formKey.currentState!.validate()) {
                   if (isEditing) {
                     final updatedJournal = journal.copyWith(
-                      itemName: titleController.text,
-                      itemDescription: contentController.text,
+                     itemName: titleController.text,
+                     itemDescription: contentController.text,
                     );
                     _controller
                         .updateJournal(updatedJournal.id, updatedJournal.itemName, updatedJournal.itemDescription)

@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "titulo": "Notícia 1",
+    "conteudo": "Conteúdo da notícia 1.",
+    "autor": "Autor 1"
+  },
+  {
+    "id": 2,
+    "titulo": "Notícia 2",
+    "conteudo": "Conteúdo da notícia 2.",
+    "autor": "Autor 2"
+  }
+]

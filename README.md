@@ -94,6 +94,4 @@ Aplicativo para exibir notícias e salvar favoritos offline no SQLite.
 - Se for testar em dispositivo físico, troque `localhost` pelo IP da máquina onde está rodando a API.
 - Os bancos SQLite dos apps Flutter ficam salvos localmente no dispositivo/emulador.
 
----
 
-Dúvidas ou problemas? Abra uma issue ou entre em contato com o autor.

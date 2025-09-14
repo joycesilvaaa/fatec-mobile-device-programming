@@ -1,1 +1,0 @@
-# fatec-mobile-device-programming
